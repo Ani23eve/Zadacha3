@@ -28,3 +28,11 @@ ps -ejH : Да изпринтиш дърво
 -chmod u+rwx testFile
 -chmod g+rx testFile
 -chmod o=r testFile
+
+3.4 (3т.) Напишете една или повече команди, които:
+-Броят редовете във файловете source1.c и source2.c, които се намират в текущата директория
+-Записват резултата във файла lineCount
+
+
+-wc -l source1.c >> lineCount
+-wc -l source2.c >> lineCount
